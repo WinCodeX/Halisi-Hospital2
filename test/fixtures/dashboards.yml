@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Doctor: MyString
+  Patient: MyString
+  Appointment: MyString
+  Staff: MyString
+
+two:
+  Doctor: MyString
+  Patient: MyString
+  Appointment: MyString
+  Staff: MyString
