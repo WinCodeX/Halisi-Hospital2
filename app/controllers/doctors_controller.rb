@@ -18,7 +18,9 @@ class DoctorsController < ApplicationController
   # GET /doctors/1/edit
   def edit
   end
-
+  def search
+    @doctor = Doctor.where("name LIKE ?", "%" + params[:q] + "%")
+  end
   # POST /doctors or /doctors.json
   def create
     @doctor = Doctor.new(doctor_params)

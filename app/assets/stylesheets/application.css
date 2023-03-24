@@ -60,6 +60,11 @@ footer{
     max-width: 330px;
     padding: 15px;
     margin: auto;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
   }
   h1 {
     color: var(--color-light);

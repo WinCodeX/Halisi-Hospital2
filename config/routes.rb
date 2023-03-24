@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'dashboard/patient'
   get 'dashboard/appointment'
   get 'dashboard/staff'
+  get "search", to: "doctors#search"
   resources :patients
   resources :doctors
   resources :dashboards
