@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  details: MyString
+  date: MyString
+  patient: one
+  doctor: one
+
+two:
+  details: MyString
+  date: MyString
+  patient: two
+  doctor: two

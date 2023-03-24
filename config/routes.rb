@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :staffs
+  resources :appointments
   get "/dashboard" => 'dashboard#index', as: :dashboard
   get 'dashboard/doctor'
   get 'dashboard/patient'
